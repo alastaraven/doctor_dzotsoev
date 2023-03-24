@@ -837,8 +837,11 @@ a.social-icons__item-link:focus-within {
 		flex: none;
 		scroll-snap-align: center;
 	}
+	.grid-item__text-block--back {
+		align-items: center;
+	}
 	.text-block--back__row {
-		flex-wrap: wrap;
+		flex-flow: column wrap;
 	}
 }
 
